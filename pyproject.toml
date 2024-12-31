@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "syncord"
+version = "0.1.0"
+description = ""
+authors = ["Dmytro Hissa <gissa.dmtr@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.16.0"
+discord-py = "^2.4.0"
+pydantic-settings = "^2.7.0"
+flask = "^3.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
